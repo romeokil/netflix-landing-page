@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- adding background image in this div -->
+    <div class="w-full h-screen bg-[url('./netflix_image/main.jpg')] bg-cover">
+        <!-- <img class="w-full h-full opacity-95 bg-center z-0 brightness-50" src="netflix_image/main.jpg" alt="This is an image">    -->
+        
+        <!-- header-section started-->
+        <div class="w-full h-8 flex flex-col md:flex-row items-center justify-between px-9 py-12">
+            <div>    
+                <!-- image section -->
+            <img class="w-32 h-16 md:w-40 md:h-28" src="netflix_image/netflix_image.png" alt="">
+            </div>
+            <div>
+                <!-- remaining right elements in the header -->
+                <select class="bg-transparent text-white border-2 border-white rounded px-6 py-2">
+                    <option class="hidden" value="Language">Language</option>
+                    <option class="bg-black text-yellow-100" value="English">English</option>
+                    <option class="bg-black text-yellow-100" value="Hindi">Bengali</option>
+                    <option class="bg-black text-yellow-100" value="Punjabi">Punjabi</option>
+                    <option class="bg-black text-yellow-100" value="Marathi">Marathi</option>
+                </select>
+                <button class="bg-red-600 px-5 py-2 mt-2 text-xl font-semibold rounded text-white">Sign In</button>
+            </div>
+        </div>
+        <!-- header-section ended -->
+
+        <!-- hero-section-started -->
+        <div class="w-full h-screen text-white flex items-center justify-center flex-col px-4">
+            <h1 class="text-white font-bold text-5xl pb-2 md:pb:4">Unlimited movies, TV shows and more</h1>
+            <p class="text-white text-xl font-normal py-2 md:py-4">Watch anywhere. Cancel anytime.</p>
+            <p class="text-white text-xl font-light py:3 mb-1 md:py-4">Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="flex-col md:flex-row items-center justify-center border-">
+                <input class="outline outline-1 outline-cyan-50 rounded bg-transparent placeholder:text-white placeholder:text-xl px-9 py-3 justify-self-center" type="text" placeholder="Email Address">
+                <button class="mt-2 md:mt-0 bg-red-700 px-4 py-3 rounded font-semibold justify-self-center text-white text-xl" type="submit">Get Started</button>
+            </div>
+        </div>
+    </div>    
+
+    <!-- hero-section-ended -->
+
+    <!-- second-section-started -->
+
+    <div class="bg-black flex flex-col md:flex-row justify-center items-center border-y-8 border-gray-900">
+        <div class="text-slate-50 mt-20 md:ml-9 md:my-36 w-2/4">
+            <h1 class="text-5xl font-extrabold md:text-6xl md:font-extrabold">Enjoy on your TV</h1>
+            <p class="py-8 text-3xl font-semibold">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+        </div>
+        <div class="mb-3 md:mr-9 md:my-36">
+            <img src="netflix_image/second.png" alt="This is an image">
+        </div>
+    </div>
+
+        <!-- second-section-ended -->
+
+        <!-- third-section-started -->
+        <div class="bg-black flex flex-col-reverse  md:flex-row-reverse justify-center items-center">
+            <div class="text-slate-50 mt-20 md:mr-14 md:ml-9 md:my-36 w-2/4">
+                <h1 class="text-5xl font-extrabold md:text-6xl md:font-extrabold">Download your shows to watch offline</h1>
+                <p class="py-8 text-3xl font-semibold">Save your favourites easily and always have something to watch.</p>
+            </div>
+            <div class="mb-3 md:mr-9 md:my-36">
+                <img src="netflix_image/third.jpg" alt="This is an image">
+            </div>
+        </div>
+
+
+        <!-- third-section-ended -->
+
+        <!-- fourth-section-started -->
+
+        <div class="bg-black flex flex-col md:flex-row justify-center items-center border-y-8 border-gray-900">
+            <div class="text-slate-50 mt-20 md:ml-9 md:my-36 w-2/4">
+                <h1 class="text-5xl font-extrabold md:text-6xl md:font-extrabold">Enjoy on your TV</h1>
+                <p class="py-8 text-3xl font-semibold">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            </div>
+            <div class="mb-3 md:mr-9 md:my-36">
+                <img src="netflix_image/fourth.png" alt="This is an image">
+            </div>
+        </div>
+
+        <!-- fourth-section-ended -->
+
+        <!-- fifth-section-started -->
+
+        <div class="bg-black flex flex-col-reverse  md:flex-row-reverse justify-center items-center">
+            <div class="text-slate-50 mt-20 md:mr-14 md:ml-9 md:my-36 w-2/4">
+                <h1 class="text-5xl font-extrabold md:text-6xl md:font-extrabold">Create profiles for kids</h1>
+                <p class="py-8 text-3xl font-semibold">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+            </div>
+            <div class="p-3 md:md:mr-9 md:my-36">
+                <img src="netflix_image/fifth.png" alt="This is an image">
+            </div>
+        </div>
+
+        <!-- fifth-section-ended -->
+
+        <!-- sixth-section-started -->
+        
+        <div class="w-full h-full bg-black flex flex-col justify-center items-center border-y-8 border-gray-900">
+                <h1 class="m-8 pt-14 text-3xl text-white text-center">Frequently Asked Questions</h1>
+            <div class="w-5/6">
+                <div class="flex justify-between p-3 md:p-4 text-xl bg-slate-600 my-3"><p>What is Netflix?</p>&plus;</div>
+                <div class="flex justify-between p-3 md:p-4 text-xl bg-slate-600 my-3"><p>How much does Netflix cost?</p>&plus;</div>
+                <div class="flex justify-between p-3 md:p-4 text-xl bg-slate-600 my-3"><p>Where can I watch?</p>&plus;</div>
+                <div class="flex justify-between p-3 md:p-4 text-xl bg-slate-600 my-3"><p>How do I cancel?</p>&plus;</div>
+                <div class="flex justify-between p-3 md:p-4 text-xl bg-slate-600 my-3"><p>What can I watch on Netflix</p>&plus;</div>
+                <div class="flex justify-between p-3 md:p-4 text-xl bg-slate-600 my-3"><p>Is Netflix good for kids?</p>&plus;</div>
+            </div>
+            <div>
+                <h2 class="text-white text-xl ml-6 mt-2 md:mt-3">Ready to watch? Enter your email to create or restart your membership.</h2>
+                <div class="flex-col md:flex-row items-center justify-center my-6 ml-9">
+                    <input class="outline outline-1 outline-cyan-50 rounded bg-transparent placeholder:text-white placeholder:text-xl px-9 py-3 justify-self-center" type="text" placeholder="Email Address">
+                    <button class="mt-4 md:mt-0 bg-red-700 px-4 py-3 rounded font-semibold justify-self-center text-white text-xl" type="submit">Get Started</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- sixth-section-ended -->
+
+        <!-- footer-section-started -->
+        <div class="w-full h-screen flex flex-col justify-center items-center bg-black text-white text-xs md:text-2xl">
+            <p class="text-xs md:text-xl py-6 text-left">Questions? Call 000-800-919-1694</p>
+            <div class="flex flex-col md:flex-row list-none my-6">
+                <div class="mx-2 md:mx-8 my-4 text-lg md:text-xl">
+                    <li>FAQ</li>
+                    <li>Investor Relation</li>
+                    <li>Privacy</li>
+                    <li>Speed Test</li>
+                </div>
+                <div class="mx-2 md:mx-8 my-4 text-lg md:text-xl">
+                    <li>Help Center</li>
+                    <li>Jobs</li>
+                    <li>Cookie Prefrences</li>
+                    <li>Legal Notice</li>
+                </div>
+                <div class="mx-2 md:mx-8 my-4 text-lg md:text-xl">
+                    <li>Account</li>
+                    <li>Ways to Watch</li>
+                    <li>Corporate Information</li>
+                    <li>Only on Netflix</li>
+                </div>
+                <div class="mx-2 md:mx-8 my-4 text-lg md:text-xl">
+                    <li>Media Center</li>
+                    <li>Terms Of Use</li>
+                    <li>Contact Us</li>
+                </div>
+            </div>
+            <select class="bg-transparent text-white border-2 border-white rounded px-6 py-2 mb-4 md:text-xl text-xs">
+                <option class="hidden" value="Language">Language</option>
+                <option class="bg-black text-yellow-100 rounded px-6 py-2 mb-4 md:text-xl text-xs" value="English">English</option>
+                <option class="bg-black text-yellow-100 rounded px-6 py-2 mb-4 md:text-xl text-xs" value="Hindi">Hindi</option>
+                <option class="bg-black text-yellow-100 rounded px-6 py-2 mb-4 md:text-xl text-xs" value="Punjabi">Punjabi</option>
+                <option class="bg-black text-yellow-100 rounded px-6 py-2 mb-4 md:text-xl text-xs" value="Marathi">Marathi</option>
+            </select>
+            <p class="text-xs md:text-xl">Netflix India</p>
+        </div>
+
+
+        <!-- footer-section-ended -->
+    
+</body>
+</html>
